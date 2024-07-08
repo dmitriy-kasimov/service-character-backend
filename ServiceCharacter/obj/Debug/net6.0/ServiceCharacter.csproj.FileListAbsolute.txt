@@ -1,0 +1,13 @@
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.GeneratedMSBuildEditorConfig.editorconfig
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.AssemblyInfoInputs.cache
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.AssemblyInfo.cs
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.csproj.CoreCompileInputs.cache
+A:\Alone\PROJECTS\GTA5\LAtruckers\server\resources\ServiceCharacter\backend\Debug\net6.0\ServiceCharacter.deps.json
+A:\Alone\PROJECTS\GTA5\LAtruckers\server\resources\ServiceCharacter\backend\Debug\net6.0\ServiceCharacter.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\server\resources\ServiceCharacter\backend\Debug\net6.0\ServiceCharacter.pdb
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\refint\ServiceCharacter.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.pdb
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ref\ServiceCharacter.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.csproj.AssemblyReference.cache
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.csproj.CopyComplete

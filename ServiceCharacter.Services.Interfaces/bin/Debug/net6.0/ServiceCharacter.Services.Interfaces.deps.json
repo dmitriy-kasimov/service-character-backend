@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ServiceCharacter.Services.Interfaces/1.0.0": {
+        "dependencies": {
+          "ServiceCharacter.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "ServiceCharacter.Services.Interfaces.dll": {}
+        }
+      },
+      "AltV.Net/16.0.16": {
+        "dependencies": {
+          "AltV.Net.Shared": "16.0.16"
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.CApi/16.0.16": {
+        "runtime": {
+          "lib/net6.0/AltV.Net.CApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Shared/16.0.16": {
+        "dependencies": {
+          "AltV.Net.CApi": "16.0.16"
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ServiceCharacter.Domain.Core/1.0.0": {
+        "dependencies": {
+          "AltV.Net": "16.0.16"
+        },
+        "runtime": {
+          "ServiceCharacter.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ServiceCharacter.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AltV.Net/16.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0//zqn7kfN9aPYsU+/hdX5Q1TpXmvTuQ+E/TGMKASPjzL5MXlLUZJ0g37flMYfMyEcn0mZOPMnq4jNHautBIKQ==",
+      "path": "altv.net/16.0.16",
+      "hashPath": "altv.net.16.0.16.nupkg.sha512"
+    },
+    "AltV.Net.CApi/16.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3NydZBk+7nanSlNnHEjE+/+IBjHyW3qT+vGAyN1zIivzwFHu5F0Wptj7xor9xmnhDJa7ALZsG3Z3CDmoGNCoA==",
+      "path": "altv.net.capi/16.0.16",
+      "hashPath": "altv.net.capi.16.0.16.nupkg.sha512"
+    },
+    "AltV.Net.Shared/16.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EhINyhUvNkfjGKqOkc/R58fnoH06CvztlkzXJJgpYLbstlevXnkn6zeAnBfezC9txLV8lAverOFgKNgJoXB1BQ==",
+      "path": "altv.net.shared/16.0.16",
+      "hashPath": "altv.net.shared.16.0.16.nupkg.sha512"
+    },
+    "ServiceCharacter.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

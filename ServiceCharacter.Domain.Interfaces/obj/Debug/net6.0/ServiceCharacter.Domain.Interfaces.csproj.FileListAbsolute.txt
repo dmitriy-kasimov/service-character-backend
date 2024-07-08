@@ -1,0 +1,15 @@
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\bin\Debug\net6.0\ServiceCharacter.Domain.Interfaces.deps.json
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\bin\Debug\net6.0\ServiceCharacter.Domain.Interfaces.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\bin\Debug\net6.0\ServiceCharacter.Domain.Interfaces.pdb
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.AssemblyInfoInputs.cache
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.AssemblyInfo.cs
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.csproj.CoreCompileInputs.cache
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\refint\ServiceCharacter.Domain.Interfaces.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.pdb
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ref\ServiceCharacter.Domain.Interfaces.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\bin\Debug\net6.0\ServiceCharacter.Domain.Core.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\bin\Debug\net6.0\ServiceCharacter.Domain.Core.pdb
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.csproj.AssemblyReference.cache
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Interfaces\obj\Debug\net6.0\ServiceCharacter.Domain.Interfaces.csproj.CopyComplete

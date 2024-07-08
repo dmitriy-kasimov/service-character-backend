@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>A:\Alone\PROJECTS\GTA5\LAtruckers\server\resources\ServiceCharacter\backend</BaseOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceCharacter.Infrastructure.Business\ServiceCharacter.Infrastructure.Business.csproj" />
+  </ItemGroup>
+
+</Project>
