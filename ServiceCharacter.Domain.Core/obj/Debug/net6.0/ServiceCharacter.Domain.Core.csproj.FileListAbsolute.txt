@@ -10,3 +10,4 @@ A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\Serv
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Core\obj\Debug\net6.0\ServiceCharacter.Domain.Core.pdb
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Core\obj\Debug\net6.0\ref\ServiceCharacter.Domain.Core.dll
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Core\obj\Debug\net6.0\ServiceCharacter.Domain.Core.csproj.AssemblyReference.cache
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Core\obj\Debug\net6.0\ServiceCharacter.Domain.Core.sourcelink.json

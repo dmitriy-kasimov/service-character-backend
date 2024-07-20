@@ -19,3 +19,4 @@ A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\Serv
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Infrastructure.Business\obj\Debug\net6.0\refint\ServiceCharacter.Infrastructure.Business.dll
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Infrastructure.Business\obj\Debug\net6.0\ServiceCharacter.Infrastructure.Business.pdb
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Infrastructure.Business\obj\Debug\net6.0\ref\ServiceCharacter.Infrastructure.Business.dll
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Infrastructure.Business\obj\Debug\net6.0\ServiceCharacter.Infrastructure.Business.sourcelink.json

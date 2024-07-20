@@ -11,3 +11,4 @@ A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\Serv
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ref\ServiceCharacter.dll
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.csproj.AssemblyReference.cache
 A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.csproj.CopyComplete
+A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter\obj\Debug\net6.0\ServiceCharacter.sourcelink.json

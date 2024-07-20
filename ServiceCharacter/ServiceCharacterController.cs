@@ -15,7 +15,7 @@ namespace ServiceCharacter
             ServiceCharacter = new Infrastructure.Business.ServiceCharacter(user);
             ServiceCharacter.Create(user, user.Character);
             user.Spawn(new Vector3(0,0,10), 1000);
-            user.Emit("ServiceCharacter:s:ServiceCharacter:c:createCharacter");
+            user.Emit("s:c:createCharacter");
         }
 
         [ServerEvent("ServiceUSIA:s:ServiceCharacter:s:start")]
@@ -34,9 +34,11 @@ namespace ServiceCharacter
             }
         }
 
-        [ClientEvent("ServiceCharacter:c:ServiceCharacter:s:createCharacter")]
+        [ClientEvent("c:s:createCharacter")]
         public void CreateCharacter(User user, string jsonCharacter)
         {
+            Console.WriteLine("jsonCharacter");
+            Console.WriteLine(jsonCharacter);
             try
             {
                 Character Character = JsonConvert.DeserializeObject<Character>(jsonCharacter) ?? throw new ServerException(Server.ErrorDeserializeCharacter);

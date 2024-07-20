@@ -77,9 +77,9 @@ namespace ServiceCharacter.Domain.Core
             HairColor HairColor = new(0, 0);
             Appearance Appearance = new(HeadBlendData, HeadBlendPaletteColor, FaceFeature, HeadOverlay, HeadOverlayColor, EyeColor, HairColor);
 
-            Clothes Clothes = new(1, 14, 0, 0);
+            Clothes Clothes = new(0, 0, 0, 0);
 
-            Props Props = new(0, 13, 0);
+            Props Props = new(0, 0, 0);
 
             Character = new Character(Appearance, Clothes, Props);
         }
