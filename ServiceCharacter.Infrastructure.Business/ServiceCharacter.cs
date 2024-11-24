@@ -1,7 +1,5 @@
-﻿using Newtonsoft.Json;
-using ServiceCharacter.Domain.Core;
+﻿using ServiceCharacter.Domain.Core;
 using ServiceCharacter.Infrastructure.Data;
-using ServiceCharacter.Infrastructure.Data.Exceptions;
 using ServiceCharacter.Services.Interfaces;
 
 namespace ServiceCharacter.Infrastructure.Business
@@ -12,7 +10,7 @@ namespace ServiceCharacter.Infrastructure.Business
         private CharacterRepository CharacterRepository { get; set; }
         public ServiceCharacter(User user) 
         {
-            this.User = user;
+            User = user;
             this.CharacterRepository = new CharacterRepository();
         }
 
@@ -21,7 +19,7 @@ namespace ServiceCharacter.Infrastructure.Business
             // Телепортировать игрока на сцену для создания/редактирования персонажа
             try
             {
-                Character Character = CharacterRepository.GetCharacter(user);
+                var Character = CharacterRepository.GetCharacter(user);
                 user.Character = Character;
             }
             catch
@@ -46,7 +44,7 @@ namespace ServiceCharacter.Infrastructure.Business
         {
             try
             {
-                Character character = CharacterRepository.GetCharacter(user);
+                var character = CharacterRepository.GetCharacter(user);
                 user.Character = character;
             }
             catch

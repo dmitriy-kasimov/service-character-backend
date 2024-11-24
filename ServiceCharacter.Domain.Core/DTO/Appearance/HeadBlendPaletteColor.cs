@@ -10,12 +10,18 @@ namespace ServiceCharacter.Domain.Core.DTO.Appearance
     public class HeadBlendPaletteColor
     {
         public byte id = 0;
-        public Rgba rgba = new(100, 150, 200, 255);
+        public byte r = 255;
+        public byte g = 255;
+        public byte b = 255;
+        public byte a = 255;
 
-        public HeadBlendPaletteColor(byte id, Rgba rgba)
+        public HeadBlendPaletteColor(byte id, byte r, byte g, byte b, byte a)
         {
             this.id = id;
-            this.rgba = rgba;
+            this.r = r;
+            this.g = g;
+            this.b = b;
+            this.a = a;
         }
     }
 }

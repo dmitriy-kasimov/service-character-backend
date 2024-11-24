@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ServiceCharacter.Domain.Core
-build_property.ProjectDir = A:\Alone\PROJECTS\GTA5\LAtruckers\sources\services\ServiceCharacter\backend\ServiceCharacter\ServiceCharacter.Domain.Core\
+build_property.ProjectDir = A:\Alone\PROJECTS\GTA5\Project-1114\sources\services\service-character\backend\ServiceCharacter\ServiceCharacter.Domain.Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

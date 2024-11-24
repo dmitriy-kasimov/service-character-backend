@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PlatformTarget>x64</PlatformTarget>
-    <BaseOutputPath>A:\Alone\PROJECTS\GTA5\LAtruckers\server\resources\ServiceCharacter\backend</BaseOutputPath>
+    <BaseOutputPath>A:\Alone\PROJECTS\GTA5\Project-1114\server\resources\service-character\backend</BaseOutputPath>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 

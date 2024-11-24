@@ -3,21 +3,21 @@ using ServiceCharacter.Infrastructure.Data.Exceptions;
 using System.Data;
 
 
-namespace ServiceCharacter.Infrastructure.Data.MySQL
+namespace ServiceCharacter.Infrastructure.Data.MySql
 {
-    public class MySQL
+    public static class MySql
     {
-        private readonly static string connStr = "SERVER=localhost;DATABASE=database;UID=root;Password=;Pooling=true;";
+        private const string ConnectionStr = "SERVER=localhost;DATABASE=database;UID=root;Password=;Pooling=true;";
 
         public static void Query(MySqlCommand command)
         {
-            using MySqlConnection conn = new MySqlConnection(connStr);
+            using var connection = new MySqlConnection(ConnectionStr);
             try
             {
-                conn.Open();
-                command.Connection = conn;
+                connection.Open();
+                command.Connection = connection;
                 command.ExecuteNonQuery();
-                conn.Close();
+                connection.Close();
             }
             catch
             {
@@ -27,13 +27,13 @@ namespace ServiceCharacter.Infrastructure.Data.MySQL
 
         public static DataTable? QueryRead(MySqlCommand command)
         {
-            using MySqlConnection conn = new MySqlConnection(connStr);
+            using var connection = new MySqlConnection(ConnectionStr);
             try
             {
-                conn.Open();
-                command.Connection = conn;
-                using MySqlDataReader reader = command.ExecuteReader();
-                using DataTable dt = new(null);
+                connection.Open();
+                command.Connection = connection;
+                using var reader = command.ExecuteReader();
+                DataTable dt = new(null);
                 dt.Load(reader);
                 return dt;
             }

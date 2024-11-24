@@ -8,13 +8,13 @@ namespace ServiceCharacter
 {
     internal class ServiceCharacterController : IScript
     {
-        public Infrastructure.Business.ServiceCharacter ServiceCharacter;
+        private Infrastructure.Business.ServiceCharacter? _serviceCharacter;
         [ScriptEvent(ScriptEventType.PlayerConnect)]
         public void UserConnect(User user, string reason)
         {
-            ServiceCharacter = new Infrastructure.Business.ServiceCharacter(user);
-            ServiceCharacter.Create(user, user.Character);
-            user.Spawn(new Vector3(0,0,10), 1000);
+            _serviceCharacter = new Infrastructure.Business.ServiceCharacter(user);
+            _serviceCharacter.Create(user, user.Character);
+            user.Spawn(new Vector3(0,5,71), 1000);
             user.Emit("s:c:createCharacter");
         }
 
@@ -23,9 +23,9 @@ namespace ServiceCharacter
         {
             try 
             {
-                ServiceCharacter.Start(user);
+                _serviceCharacter?.Start(user);
 
-                string characterString = JsonConvert.SerializeObject(user.Character) ?? throw new ServerException(Server.ErrorSerializeCharacter);
+                var characterString = JsonConvert.SerializeObject(user.Character) ?? throw new ServerException(Server.ErrorSerializeCharacter);
                 user.Emit("ServiceCharacter:s:ServiceCharacter:c:start", characterString);
             }
             catch (ServerException ex)
@@ -41,8 +41,8 @@ namespace ServiceCharacter
             Console.WriteLine(jsonCharacter);
             try
             {
-                Character Character = JsonConvert.DeserializeObject<Character>(jsonCharacter) ?? throw new ServerException(Server.ErrorDeserializeCharacter);
-                ServiceCharacter.Create(user, Character);
+                var Character = JsonConvert.DeserializeObject<Character>(jsonCharacter) ?? throw new ServerException(Server.ErrorDeserializeCharacter);
+                _serviceCharacter?.Create(user, Character);
             }
             catch (ServerException ex) 
             {
@@ -56,7 +56,7 @@ namespace ServiceCharacter
             Console.WriteLine("UpdateCharacter was called!");
             try
             {
-                ServiceCharacter.Update(user);
+                _serviceCharacter?.Update(user);
             }
             catch (ServerException ex)
             {

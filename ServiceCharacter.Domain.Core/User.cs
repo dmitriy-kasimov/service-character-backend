@@ -8,13 +8,13 @@ namespace ServiceCharacter.Domain.Core
 {
     public class User : Player
     {
-        private Character _character;
-        public Character Character { get { return _character; }
+        private Character _character = Character.GetInitialValue();
+        public Character Character { get => _character; 
             set
             {
                 _character = value;
 
-                this.SetHeadBlendData(
+                SetHeadBlendData(
                     value.Appearance.HeadBlendData.ShapeFirstID,
                     value.Appearance.HeadBlendData.ShapeSecondID,
                     value.Appearance.HeadBlendData.ShapeThirdID,
@@ -26,62 +26,49 @@ namespace ServiceCharacter.Domain.Core
                     value.Appearance.HeadBlendData.ThirdMix
                 );
 
-                this.SetHeadBlendPaletteColor(
+                SetHeadBlendPaletteColor(
                     value.Appearance.HeadBlendPaletteColor.id,
-                    value.Appearance.HeadBlendPaletteColor.rgba
+                    new AltV.Net.Data.Rgba(
+                        value.Appearance.HeadBlendPaletteColor.r,
+                        value.Appearance.HeadBlendPaletteColor.g,
+                        value.Appearance.HeadBlendPaletteColor.b,
+                        value.Appearance.HeadBlendPaletteColor.a
+                    )
+                    
                 );
 
-                this.SetFaceFeature(
+                SetFaceFeature(
                     value.Appearance.FaceFeature.index,
                     value.Appearance.FaceFeature.scale
                 );
 
-                this.SetHeadOverlay(
+                SetHeadOverlay(
                     value.Appearance.HeadOverlay.overlayID,
                     value.Appearance.HeadOverlay.index,
                     value.Appearance.HeadOverlay.opacity
                 );
 
-                this.SetHeadOverlayColor(
+                SetHeadOverlayColor(
                     value.Appearance.HeadOverlayColor.overlayID,
                     value.Appearance.HeadOverlayColor.colorType,
                     value.Appearance.HeadOverlayColor.colorIndex,
                     value.Appearance.HeadOverlayColor.secondColorIndex
                 );
 
-                this.SetEyeColor(this.Character.Appearance.EyeColor.index);
+                SetEyeColor(Character.Appearance.EyeColor.index);
 
-                this.HairColor = this.Character.Appearance.HairColor.colorID;
+                HairColor = Character.Appearance.HairColor.colorID;
 
-                this.HairHighlightColor = this.Character.Appearance.HairColor.highlightColorID;
+                HairHighlightColor = Character.Appearance.HairColor.highlightColorID;
 
-
-
-                this.SetClothes(value.Clothes.Component, value.Clothes.Drawable, value.Clothes.Texture, value.Clothes.Palette);
-
-
-
-                this.SetProps(value.Props.Component, value.Props.Drawable, value.Props.Texture);
-
+                SetClothes(value.Clothes.Component, value.Clothes.Drawable, value.Clothes.Texture, value.Clothes.Palette);
                 
+                SetProps(value.Props.Component, value.Props.Drawable, value.Props.Texture);
             }
         }
         public User(ICore core, IntPtr nativePointer, uint id) : base(core, nativePointer, id)
         {
-            HeadBlendData HeadBlendData = new(0,0,0,0,0,0,0,0,0);
-            HeadBlendPaletteColor HeadBlendPaletteColor = new(0, new AltV.Net.Data.Rgba(255, 0, 0, 255));
-            FaceFeature FaceFeature = new(0, 0.5f);
-            HeadOverlay HeadOverlay = new(0, 0, 0.5f);
-            HeadOverlayColor HeadOverlayColor = new(0, 0, 0, 0);
-            EyeColor EyeColor = new(0);
-            HairColor HairColor = new(0, 0);
-            Appearance Appearance = new(HeadBlendData, HeadBlendPaletteColor, FaceFeature, HeadOverlay, HeadOverlayColor, EyeColor, HairColor);
 
-            Clothes Clothes = new(0, 0, 0, 0);
-
-            Props Props = new(0, 0, 0);
-
-            Character = new Character(Appearance, Clothes, Props);
         }
     }
 

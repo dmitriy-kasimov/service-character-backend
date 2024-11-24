@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj": {}
+    "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj": {
+    "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj",
+        "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj",
         "projectName": "ServiceCharacter.Domain.Core",
-        "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj",
+        "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Dmitriy Kasimov\\.nuget\\packages\\",
-        "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\obj\\",
+        "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj": {
+    "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj",
+        "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj",
         "projectName": "ServiceCharacter.Domain.Interfaces",
-        "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj",
+        "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj",
         "packagesPath": "C:\\Users\\Dmitriy Kasimov\\.nuget\\packages\\",
-        "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\obj\\",
+        "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj": {
-                "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj"
+              "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj": {
+                "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Core\\ServiceCharacter.Domain.Core.csproj"
               }
             }
           }
@@ -132,14 +132,14 @@
         }
       }
     },
-    "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj": {
+    "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj",
+        "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj",
         "projectName": "ServiceCharacter.Infrastructure.Data",
-        "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj",
+        "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\ServiceCharacter.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\Dmitriy Kasimov\\.nuget\\packages\\",
-        "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\obj\\",
+        "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -160,8 +160,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj": {
-                "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj"
+              "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj": {
+                "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Domain.Interfaces\\ServiceCharacter.Domain.Interfaces.csproj"
               }
             }
           }

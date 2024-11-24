@@ -1,7 +1,6 @@
 ﻿using ServiceCharacter.Domain.Core.DTO.Appearance;
 using ServiceCharacter.Domain.Core.DTO.Clothes;
 using ServiceCharacter.Domain.Core.DTO.Prop;
-using System.Drawing;
 
 namespace ServiceCharacter.Domain.Core
 {
@@ -10,11 +9,30 @@ namespace ServiceCharacter.Domain.Core
         public Appearance Appearance { get; set; }
         public Clothes Clothes { get; set; }
         public Props Props { get; set; }
-        public Character(Appearance Appearance, Clothes Clothes, Props Props)
+        
+        private Character(Appearance appearance, Clothes clothes, Props props)
         {
-            this.Appearance = Appearance;
-            this.Clothes = Clothes;
-            this.Props = Props;
+            Appearance = appearance;
+            Clothes = clothes;
+            Props = props;
+        }
+
+        public static Character GetInitialValue()
+        {
+            HeadBlendData HeadBlendData = new(0,0,0,0,0,0,0,0,0);
+            HeadBlendPaletteColor HeadBlendPaletteColor = new(0, 255, 255, 255, 255);
+            FaceFeature FaceFeature = new(0, 0.5f);
+            HeadOverlay HeadOverlay = new(0, 0, 0.5f);
+            HeadOverlayColor HeadOverlayColor = new(0, 0, 0, 0);
+            EyeColor EyeColor = new(0);
+            HairColor HairColor = new(0, 0);
+            
+            
+            Appearance appearance = new(HeadBlendData, HeadBlendPaletteColor, FaceFeature, HeadOverlay, HeadOverlayColor, EyeColor, HairColor);
+            Clothes clothes = new(0, 0, 0, 0);
+            Props props = new(0, 0, 0);
+
+            return new Character(appearance, clothes, props);
         }
     }
 }

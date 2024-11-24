@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p97+M71NGMlEjjyUIqEHsA2WarLsby0KRT+1XY8go9oNDW0PoU6jo9llEFwKYY9FPNdt3F3zjMuLmM5TgbfO4w==",
+  "dgSpecHash": "72U+oBdU5f29jJiBkpQcyA31lhEsrqBoRl+9EzSRqPj3EXY2tahZ9Vrcsoqh8Z0eGvYgwNxHIHskOlJeVUXVWA==",
   "success": true,
-  "projectFilePath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Services.Interfaces\\ServiceCharacter.Services.Interfaces.csproj",
+  "projectFilePath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Services.Interfaces\\ServiceCharacter.Services.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitriy Kasimov\\.nuget\\packages\\altv.net\\16.0.16\\altv.net.16.0.16.nupkg.sha512",
     "C:\\Users\\Dmitriy Kasimov\\.nuget\\packages\\altv.net.capi\\16.0.16\\altv.net.capi.16.0.16.nupkg.sha512",

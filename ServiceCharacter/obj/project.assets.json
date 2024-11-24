@@ -2010,12 +2010,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter\\ServiceCharacter.csproj",
+      "projectUniqueName": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter\\ServiceCharacter.csproj",
       "projectName": "ServiceCharacter",
-      "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter\\ServiceCharacter.csproj",
+      "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter\\ServiceCharacter.csproj",
       "packagesPath": "C:\\Users\\Dmitriy Kasimov\\.nuget\\packages\\",
-      "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter\\obj\\",
+      "outputPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter\\obj\\",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
@@ -2035,8 +2036,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Business\\ServiceCharacter.Infrastructure.Business.csproj": {
-              "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\LAtruckers\\sources\\services\\ServiceCharacter\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Business\\ServiceCharacter.Infrastructure.Business.csproj"
+            "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Business\\ServiceCharacter.Infrastructure.Business.csproj": {
+              "projectPath": "A:\\Alone\\PROJECTS\\GTA5\\Project-1114\\sources\\services\\service-character\\backend\\ServiceCharacter\\ServiceCharacter.Infrastructure.Business\\ServiceCharacter.Infrastructure.Business.csproj"
             }
           }
         }

@@ -12,18 +12,17 @@ namespace ServiceCharacter.Infrastructure.Data
     {
         public void Create(User user, Character character)
         {
-            string query = $"UPDATE users SET user_character=@user_character WHERE user_login=@user_login";
+            const string query = $"UPDATE users SET user_character=@user_character WHERE user_login=@user_login";
             using MySqlCommand insertCommand = new(query);
 
             try
             {
-                string characterJSON = JsonConvert.SerializeObject(character) ?? throw new ServerException(Server.ErrorSerializeCharacter);
+                var CharacterJson = JsonConvert.SerializeObject(character) ?? throw new ServerException(Server.ErrorSerializeCharacter);
 
-                insertCommand.Parameters.AddWithValue("@user_character", characterJSON);
-
+                insertCommand.Parameters.AddWithValue("@user_character", CharacterJson);
                 insertCommand.Parameters.AddWithValue("@user_login", user.Name);
 
-                MySQL.MySQL.Query(insertCommand);
+                MySql.MySql.Query(insertCommand);
             }
             catch
             {
@@ -33,15 +32,15 @@ namespace ServiceCharacter.Infrastructure.Data
 
         public Character GetCharacter(User user)
         {
-            string query = $"SELECT user_character FROM users WHERE user_login=@user_login";
+            const string query = $"SELECT user_character FROM users WHERE user_login=@user_login";
             using MySqlCommand command = new(query);
             command.Parameters.AddWithValue("@user_login", user.Name);
 
-            Character Character = user.Character;
+            
 
             try
             {
-                DataTable? dt = MySQL.MySQL.QueryRead(command) ?? throw new ServerException(Server.UserWasNotFound);
+                var dt = MySql.MySql.QueryRead(command) ?? throw new ServerException(Server.UserWasNotFound);
 
                 string? characterString=null;
                 foreach (DataRow row in dt.Rows)
@@ -50,9 +49,8 @@ namespace ServiceCharacter.Infrastructure.Data
                 }
 
                 if (characterString == null) throw new ServerException(Server.InvalidCharacterData);
-
-                Character = JsonConvert.DeserializeObject<Character>(characterString) ?? throw new ServerException(Server.ErrorDeserializeCharacter);
-                return Character;
+                
+                return JsonConvert.DeserializeObject<Character>(characterString) ?? throw new ServerException(Server.ErrorDeserializeCharacter);
             }
             catch 
             {
